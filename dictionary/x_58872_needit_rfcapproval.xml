@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="RFCApproval" max_length="40" name="x_58872_needit_rfcapproval" sizeclass="4" type="collection">
+        <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="server" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Dept - IT" sequence="0" value="it"/>
+                <element inactive_on_update="false" label="Server" sequence="0" value="server"/>
+                <element inactive="true" inactive_on_update="true" label="Dept - HR" sequence="1" value="hr"/>
+                <element inactive_on_update="false" label="Network" sequence="1" value="network"/>
+                <element inactive="true" inactive_on_update="true" label="Dept - Facilities" sequence="2" value="facilities"/>
+                <element inactive_on_update="false" label="Storage" sequence="2" value="storage"/>
+                <element inactive_on_update="false" label="Backup" sequence="3" value="backup"/>
+                <element inactive="true" inactive_on_update="true" label="Dept - Accounting" sequence="3" value="accounting"/>
+                <element inactive="true" inactive_on_update="true" label="Dept - Legal" sequence="4" value="legal"/>
+                <element inactive="true" inactive_on_update="true" label="Dept - Marketing" sequence="5" value="marketing"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="serverreboot" label="What Needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Server Reboot" sequence="0" value="serverreboot"/>
+                <element inactive_on_update="false" label="Add user" sequence="1" value="adduser"/>
+                <element inactive_on_update="false" label="Add firewall rule" sequence="2" value="addfirewallrule"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
+    </element>
+</database>
