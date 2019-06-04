@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="u_aarfc_approval" max_length="40" name="x_58872_needit_u_aarfc_approval" type="collection">
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="u_number" type="string" use_dynamic_default="true"/>
+        <element label="Result" max_length="40" name="u_result" type="string"/>
+        <element label="Result Details" max_length="40" name="u_result_details" type="string"/>
+        <element label="Runbook Name" max_length="40" name="u_runbook_name" type="string"/>
+        <element label="Status" max_length="40" name="u_status" type="string"/>
+        <element label="Task Number" max_length="40" name="u_task_number" reference="task" type="reference"/>
+    </element>
+</database>

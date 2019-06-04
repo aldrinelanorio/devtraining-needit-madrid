@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>catalog_rfc_service_catalog</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>integration.Resolve</sys_created_by>
+        <sys_created_on>2019-06-04 03:28:19</sys_created_on>
+        <sys_id>2e0a210edbfd33002579d6aa48961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RFC Service Catalog View</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_view_2e0a210edbfd33002579d6aa48961908</sys_update_name>
+        <sys_updated_by>integration.Resolve</sys_updated_by>
+        <sys_updated_on>2019-06-04 03:28:19</sys_updated_on>
+        <title>RFC Service Catalog View</title>
+        <user/>
+    </sys_ui_view>
+</record_update>
