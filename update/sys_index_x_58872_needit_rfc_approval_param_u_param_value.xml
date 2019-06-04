@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>u_param_value</col_name_string>
+        <index_col_name element="u_param_value" name="x_58872_needit_rfc_approval_param">0d11e63ddbb533002579d6aa4896193f</index_col_name>
+        <logical_table_name>x_58872_needit_rfc_approval_param</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2019-06-03 13:37:34</sys_created_on>
+        <sys_id>ddebe6b9dbf533002579d6aa48961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_rfc_approval_param</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_index_x_58872_needit_rfc_approval_param_u_param_value</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-06-03 13:37:34</sys_updated_on>
+        <table display_value="RFC Approval Param" name="x_58872_needit_rfc_approval_param">c90e1a31dbf533002579d6aa48961902</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

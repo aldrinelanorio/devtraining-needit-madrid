@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="RFC Approval Param" max_length="40" name="x_58872_needit_rfc_approval_param" type="collection">
+        <element label="Param Name" max_length="40" name="u_param_name" type="string"/>
+        <element display="true" label="Param Value" max_length="40" name="u_param_value" type="string"/>
+        <element label="Trigger Number" max_length="40" name="u_trigger_number" reference="x_58872_needit_rfcapproval" type="reference"/>
+        <index name="index">
+            <element name="u_param_value"/>
+        </index>
+    </element>
+</database>
